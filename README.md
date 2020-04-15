@@ -22,14 +22,9 @@
 ### Техническая реализация:
 
 - Swift 5.1, iOS 13+
-
 - Верстка интерфейса кодом
-
 - [Diffable Data Sources](https://developer.apple.com/videos/play/wwdc2019/220)
-
 -  [Collection View Compositional Layout](https://developer.apple.com/videos/play/wwdc2019/215)
-
 - [RxSwift](https://github.com/ReactiveX/RxSwift)
-
 - [Deezer API](https://developers.deezer.com/)
 
