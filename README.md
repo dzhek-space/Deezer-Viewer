@@ -5,9 +5,9 @@
 ###  Скриншоты
 
 <p align=center>
-	<img height="448" src="../Screenshots/Light/preview.gif" alt="Gif preview">
-	<img height="448" src="../Screenshots/Light/dark_user_profile.png" alt="dark theme preview 1">
-	<img height="448" src="../Screenshots/Light/dark_tracklist.png" alt="dark theme preview 2">
+	<img height="448" src="https://github.com/dzhek-space/Deezer-Viewer/blob/master/Screenshots/preview.gif" alt="Gif preview">
+	<img height="448" src="https://github.com/dzhek-space/Deezer-Viewer/blob/master/Screenshots/dark_user_profile.png" alt="dark theme preview 1">
+	<img height="448" src="https://github.com/dzhek-space/Deezer-Viewer/blob/master/Screenshots/dark_tracklist.png" alt="dark theme preview 2">
 </p>
 
 
