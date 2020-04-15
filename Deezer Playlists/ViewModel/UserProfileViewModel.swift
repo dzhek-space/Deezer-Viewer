@@ -10,14 +10,12 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-// Relevant id
-var succes = [753546365, 643790541, 1842398, 1701245, 902801015, 938973527, 152734253, 686576633, 10596443, 9456080, 8396007, 4644777, 1661469, 270436, 423807, 1323294848, 918594, 2957134, 1614208646, 2349829, 467995233]
+fileprivate var relevantId = [753546365, 643790541, 1842398, 1701245, 902801015, 938973527, 152734253, 686576633, 10596443, 9456080, 8396007, 4644777, 1661469, 270436, 423807, 1323294848, 918594, 2957134, 1614208646, 2349829, 467995233]
 
 fileprivate var randomUserId: Observable<Int> {
     return Observable.deferred {
         
-        let randId = succes.isEmpty ? Int.random(in: 5...2352258) : succes.removeLast()
-//        print("        ----------- •-•-•-•-•-•- {  \(id)  } •-•-•-•-•-•- -----------        ")
+        let randId = relevantId.isEmpty ? Int.random(in: 5...2352258) : relevantId.removeLast()
         return Observable.just(randId)
     }
 }

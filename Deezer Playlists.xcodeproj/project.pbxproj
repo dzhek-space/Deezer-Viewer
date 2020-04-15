@@ -19,6 +19,9 @@
 		9E4708D624409930009639AF /* BaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4708D524409930009639AF /* BaseLabel.swift */; };
 		9E4C6C6B2417CFA500A7C6F6 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C6C6A2417CFA500A7C6F6 /* AppError.swift */; };
 		9E4C6C6D2417D96B00A7C6F6 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C6C6C2417D96B00A7C6F6 /* URLExtension.swift */; };
+		9E668BE92447535E0016960A /* dark_tracklist.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E668BE62447535E0016960A /* dark_tracklist.png */; };
+		9E668BEA2447535E0016960A /* preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9E668BE72447535E0016960A /* preview.gif */; };
+		9E668BEB2447535E0016960A /* dark_user_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E668BE82447535E0016960A /* dark_user_profile.png */; };
 		9E6777142443377A00456F98 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6777132443377A00456F98 /* BaseCollectionViewCell.swift */; };
 		9E67E728241A3FC800B7C6E3 /* TracklistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E67E727241A3FC800B7C6E3 /* TracklistViewModel.swift */; };
 		9E697A9123880D0300B39BF1 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E697A9023880D0300B39BF1 /* Playlist.swift */; };
@@ -62,6 +65,9 @@
 		9E4708D524409930009639AF /* BaseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabel.swift; sourceTree = "<group>"; };
 		9E4C6C6A2417CFA500A7C6F6 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		9E4C6C6C2417D96B00A7C6F6 /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		9E668BE62447535E0016960A /* dark_tracklist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark_tracklist.png; sourceTree = "<group>"; };
+		9E668BE72447535E0016960A /* preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preview.gif; sourceTree = "<group>"; };
+		9E668BE82447535E0016960A /* dark_user_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark_user_profile.png; sourceTree = "<group>"; };
 		9E6777132443377A00456F98 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		9E67E727241A3FC800B7C6E3 /* TracklistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracklistViewModel.swift; sourceTree = "<group>"; };
 		9E697A9023880D0300B39BF1 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
@@ -134,6 +140,16 @@
 				9E2D8838241788CA008BED03 /* MockViewModel.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		9E668BE524471EF10016960A /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				9E668BE62447535E0016960A /* dark_tracklist.png */,
+				9E668BE82447535E0016960A /* dark_user_profile.png */,
+				9E668BE72447535E0016960A /* preview.gif */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 		9E6777152443999C00456F98 /* Base */ = {
@@ -209,6 +225,7 @@
 		9EF42A2B237979A500122712 = {
 			isa = PBXGroup;
 			children = (
+				9E668BE524471EF10016960A /* Screenshots */,
 				9EF42A36237979A500122712 /* Deezer Playlists */,
 				9EF42A35237979A500122712 /* Products */,
 				9EF28F1E244639B300741D91 /* README.md */,
@@ -353,8 +370,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EF28F1F244639B300741D91 /* README.md in Resources */,
+				9E668BEA2447535E0016960A /* preview.gif in Resources */,
 				9EF42A44237979AB00122712 /* LaunchScreen.storyboard in Resources */,
 				9EF42A41237979AB00122712 /* Assets.xcassets in Resources */,
+				9E668BEB2447535E0016960A /* dark_user_profile.png in Resources */,
+				9E668BE92447535E0016960A /* dark_tracklist.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

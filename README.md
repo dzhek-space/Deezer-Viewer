@@ -5,10 +5,9 @@
 ###  Скриншоты
 
 <p align=center>
-	<img height="450" src="Resources/Screenshots/Light/Dashboard.png" alt="Dashboard">
-	<img height="450" src="Resources/Screenshots/Light/Detail.png" alt="Detail">
-	<img height="450" src="Resources/Screenshots/Light/Mounts.png" alt="Mounts">
-	<img height="450" src="Resources/Screenshots/Light/Network.png" alt="Network">
+	<img height="448" src="../Screenshots/Light/preview.gif" alt="Gif preview">
+	<img height="448" src="../Screenshots/Light/dark_user_profile.png" alt="dark theme preview 1">
+	<img height="448" src="../Screenshots/Light/dark_tracklist.png" alt="dark theme preview 2">
 </p>
 
 
